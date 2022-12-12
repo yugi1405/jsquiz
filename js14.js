@@ -1,0 +1,10 @@
+var cp= prompt("enter cp value");
+  cp= parseInt(cp);
+var sp= prompt("enter sp value");
+  sp= parseInt(sp);
+var profit;
+    profit = sp - cp;
+   alert(profit);
+var profitPercentage;
+    profitPercentage = profit/cp*100;
+  alert(profitPercentage);
